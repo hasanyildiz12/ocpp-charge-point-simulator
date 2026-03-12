@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OCPP-ChargePointSimulator-yldz — OCPP 1.6J Charge Point Simulator
+ocpp-charge-point-simulator — OCPP 1.6J Charge Point Simulator
 ========================================================
 Lightweight, interactive OCPP 1.6 JSON charge-point simulator.
 Optimised for low-resource environments (tested on Raspberry Pi Zero 2 W
@@ -251,7 +251,7 @@ async def handle_message(ws, raw: str):
 def print_menu():
     print(f"""
 {BOLD}{CYAN}┌─────────────────────────────────────────┐{RESET}
-{BOLD}{CYAN}│  OCPP-Simulator-yldz  ·  OCPP 1.6J     │{RESET}
+{BOLD}{CYAN}│ ocpp-charge-point-simulator · OCPP 1.6J  │{RESET}
 {BOLD}{CYAN}└─────────────────────────────────────────┘{RESET}
   {BOLD}1{RESET}  BootNotification
   {BOLD}2{RESET}  Heartbeat (manual)
@@ -315,7 +315,7 @@ async def recv_loop(ws):
 async def main():
     global hb_task
 
-    print(f"\n{BOLD}OCPP-Simulator-yldz  ·  OCPP 1.6J Charge Point Simulator{RESET}")
+    print(f"\n{BOLD}ocpp-charge-point-simulator · OCPP 1.6J Charge Point Simulator{RESET}")
     print(f"{DIM}Connecting to: {CSMS_URL}{RESET}\n")
 
     # Graceful shutdown

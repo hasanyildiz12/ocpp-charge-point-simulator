@@ -8,11 +8,11 @@ Edit this file to match your CSMS setup.
 # Replace with your own CSMS WebSocket URL.
 # Format: ws://<host>:<port>/<path>/<CHARGE_BOX_ID>
 
-CSMS_URL = _CFG_CSMS_URL,
+CSMS_URL = _CFG_CSMS_URL
 
 # ─── Charge Point Identity ───────────────────────────────────────────────────
 
-CHARGE_BOX_ID  = _CFG_CHARGE_BOX_ID,
+CHARGE_BOX_ID  = _CFG_CHARGE_BOX_ID
 VENDOR         = "TestVendor"
 MODEL          = "TestModel"
 SERIAL         = "SN-001"
