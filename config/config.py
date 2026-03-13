@@ -1,5 +1,5 @@
 """
-OCPP-ChargePointSimulator-yldz — Configuration
+ocpp-charge-point-simulator — Configuration
 All tuneable parameters are defined here.
 Edit this file to match your CSMS setup.
 """
